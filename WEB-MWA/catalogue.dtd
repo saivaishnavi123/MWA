@@ -1,0 +1,6 @@
+<!ELEMENT Catalogue (Book)*>
+<!ELEMENT Book (Title, Author, Publication ,Price)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Publication (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>

@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Student Registration</title>
+	</head>
+	<body>
+		
+		<h1 align="center" style="color:#000000;">Student Registration-2k23</h1>
+	     <form action="register.php" method="POST">
+		<table align="center">
+			<tr>
+				<td><label>uname: </label></td>
+				<td><input type="text" name="uname" required><br></td>
+			</tr>
+			<tr>
+				<td><label>pass: </label></td>
+				<td><input type="text" name="pass" required><br></td>
+			</tr>
+			<tr>
+				<td><label>email: </label></td>
+				<td><input type="email" name="email" required><br></td>
+			</tr>
+			<tr>
+				<td><label>phno: </label></td>
+				<td><input type="tel" id="phone" name="phno" placeholder="[6-9]x[0-9]xxxxxxxxx" pattern="[6-9]{1}[0-9]{9}" required></td>
+			</tr>
+			<tr>
+				<td><input type="reset" value="Reset"></td>
+				<td><input type="submit" value="Submit"></td>
+			</tr>
+		</table>
+	     </form>
+	</body>
+</html>

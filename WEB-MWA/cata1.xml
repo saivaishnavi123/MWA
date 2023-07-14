@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="cata1.css"?>
+<!DOCTYPE Catalogue SYSTEM "catalogue.dtd">
+	<Catalogue>
+		<Book>
+			<Title>Algorithms</Title>
+			<Author>Brian Christian, Tom Griffiths</Author>
+			<Publication>Henry Holt and Co</Publication>
+			<Price>₹2,293.00</Price >
+			
+		</Book>
+		<Book>
+			<Title>Artificial Intelligence</Title>
+			<Author>S. Russel</Author>
+			<Publication> Princeton Hall </Publication>
+			<Price>₹5204.78</Price>
+			
+		</Book>
+		<Book>
+			<Title>Java 2</Title>
+			<Author>Watson</Author>
+			<Publication>BPB Publications</Publication>
+			<Price>₹2932.85</Price>
+			
+		</Book>
+		<Book>
+			<Title> Fundamentals of Software Engineering </Title>
+			<Author> Rajib Mall</Author>
+			<Publication>  Prentice Hall India Pvt. </Publication>
+			<Price> ₹425.00 </Price >
+		</Book>
+	</Catalogue>
